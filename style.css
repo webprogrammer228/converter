@@ -1,0 +1,43 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.converter {
+    width: 500px;
+    height: auto;
+    background: lightblue;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.send-button {
+    min-width: 250px;
+    max-width: 250px;
+    border-radius: 15px;
+    border: 0;
+    background: lightgoldenrodyellow;
+    color: black;
+    padding: 20px 0;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.file {
+    text-align: center;
+}
